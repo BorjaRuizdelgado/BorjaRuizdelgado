@@ -68,7 +68,7 @@
 		</section>
 
 		<!-- Three -->
-		<section class="wrapper style1 align-center" id="studies">
+		<section class=" align-center" id="studies">
 			<div class="inner">
 				
 				<div class=" align-left">
@@ -100,7 +100,6 @@
 
 			</div>
 		</section>
-
 		<!-- Four -->
 		<section class="wrapper style1 align-center" id="experience">
 			<div class="inner">
@@ -145,13 +144,32 @@
 						</div>
 					</section>
 				</div>
+				<ul class="actions stacked">
+					<li><a href="#skills" class="button">Skills</a></li>
+				</ul>
 
 
 			</div>
 		</section>
+		
+		<section>
+	
+			<div class="content align-center">
+				<br>
+				<h2><b id="day"></b></h2>
+				<span class="image "><img src="https://media.giphy.com/media/MIY4jpusckRmU/giphy.gif" alt="" /></span>
+
+			</div>
+		</section>
+
+		<script>
+			var d = new Date();
+			var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+			document.getElementById("day").innerHTML = "Happy " + days[d.getDay()] + "!";
+			</script>
 
 		<!-- Five -->
-		<section class="wrapper style1 align-center">
+		<section class="wrapper style1 align-center" id="skills">
 			<div class="inner">
 				<h2><b>Skills</b></h2>
 				<div class="items style1 big onscroll-fade-in">
