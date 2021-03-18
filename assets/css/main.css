@@ -2195,8 +2195,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px rgb(248, 95, 64);
-			color: rgb(248, 95, 64) !important;
+			box-shadow: inset 0 0 0 1px #47D3E5;
+			color: #47D3E5 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2205,8 +2205,8 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: rgba(71, 211, 229, 0.2);
-			box-shadow: inset 0 0 0 1px rgb(248, 95, 64);
-			color: rgb(248, 95, 64) !important;
+			box-shadow: inset 0 0 0 1px #47D3E5;
+			color: #47D3E5 !important;
 		}
 
 		input[type="submit"].primary,
@@ -2224,7 +2224,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgb(248, 95, 64);
+				background-color: #47D3E5;
 			}
 
 			input[type="submit"].primary:active,
@@ -2232,7 +2232,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: rgb(248, 95, 64);
+				background-color: #47D3E5;
 			}
 
 /* Form */
@@ -2614,8 +2614,8 @@ input, select, textarea {
 	}
 
 	a.icon.style2:hover:before {
-		box-shadow: inset 0 0 0 1px rgb(248, 95, 64) ;
-		color: rgb(248, 95, 64);
+		box-shadow: inset 0 0 0 1px #47D3E5 ;
+		color: #47D3E5;
 	}
 
 	a.icon.style2:active:before {
@@ -5476,8 +5476,9 @@ input, select, textarea {
 		.spotlight.style4 .content {
 			padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
 			position: relative;
-			width: 40rem;
-			max-width: 50%;
+			width: 50rem;
+			max-width: 100%;
+			min-width: 40%;
 			background-color: inherit;
 			border-radius: 0.5rem;
 			margin-bottom: 2rem;
@@ -5541,6 +5542,7 @@ input, select, textarea {
 					padding: 3rem 3rem 1rem 3rem ;
 				}
 
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -5563,6 +5565,7 @@ input, select, textarea {
 
 				.spotlight.style4 .content {
 					padding: 1.5rem 1.5rem 0.1rem 1.5rem ;
+					width: 100rem;
 				}
 
 		}
@@ -5570,7 +5573,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.spotlight.style4 .content {
-				max-width: 80%;
+				width: 100rem;
 			}
 
 		}
@@ -6421,8 +6424,8 @@ input, select, textarea {
 			.gallery.style1 input[type="button"]:hover,
 			.gallery.style1 button:hover,
 			.gallery.style1 .button:hover {
-				box-shadow: inset 0 0 0 1px rgb(248, 95, 64);
-				color: rgb(248, 95, 64) !important;
+				box-shadow: inset 0 0 0 1px #47D3E5;
+				color: #47D3E5 !important;
 			}
 
 			.gallery.style1 input[type="submit"]:active,
@@ -6431,8 +6434,8 @@ input, select, textarea {
 			.gallery.style1 button:active,
 			.gallery.style1 .button:active {
 				background-color: rgba(71, 211, 229, 0.2);
-				box-shadow: inset 0 0 0 1px rgb(248, 95, 64);
-				color: rgb(248, 95, 64) !important;
+				box-shadow: inset 0 0 0 1px #47D3E5;
+				color: #47D3E5 !important;
 			}
 
 			.gallery.style1 input[type="submit"].primary,
@@ -6450,7 +6453,7 @@ input, select, textarea {
 				.gallery.style1 input[type="button"].primary:hover,
 				.gallery.style1 button.primary:hover,
 				.gallery.style1 .button.primary:hover {
-					background-color: rgb(248, 95, 64);
+					background-color: #47D3E5;
 				}
 
 				.gallery.style1 input[type="submit"].primary:active,
@@ -6458,7 +6461,7 @@ input, select, textarea {
 				.gallery.style1 input[type="button"].primary:active,
 				.gallery.style1 button.primary:active,
 				.gallery.style1 .button.primary:active {
-					background-color: rgb(248, 95, 64);
+					background-color: #47D3E5;
 				}
 
 		.gallery.style1 > .forward, .gallery.style1 > .backward {
@@ -6755,7 +6758,7 @@ input, select, textarea {
 			.gallery.style2 button:active,
 			.gallery.style2 .button:active {
 				background-color: rgba(71, 211, 229, 0.2);
-				box-shadow: inset 0 0 0 1px rgb(248, 95, 64);
+				box-shadow: inset 0 0 0 1px #47D3E5;
 				color: #47D3E5 !important;
 			}
 
@@ -6774,7 +6777,7 @@ input, select, textarea {
 				.gallery.style2 input[type="button"].primary:hover,
 				.gallery.style2 button.primary:hover,
 				.gallery.style2 .button.primary:hover {
-					background-color: rgb(248, 95, 64);
+					background-color: #47D3E5;
 				}
 
 				.gallery.style2 input[type="submit"].primary:active,
@@ -6782,7 +6785,7 @@ input, select, textarea {
 				.gallery.style2 input[type="button"].primary:active,
 				.gallery.style2 button.primary:active,
 				.gallery.style2 .button.primary:active {
-					background-color: rgb(248, 95, 64);
+					background-color: #47D3E5;
 				}
 
 		.gallery.style2 > .forward, .gallery.style2 > .backward {
@@ -8269,7 +8272,7 @@ input, select, textarea {
 			}
 
 				#wrapper > .invert a:hover {
-					color: rgb(248, 95, 64);
+					color: #47D3E5;
 				}
 
 			#wrapper > .invert strong, #wrapper > .invert b {
@@ -8312,7 +8315,7 @@ input, select, textarea {
 				#wrapper > .invert input[type="button"]:hover,
 				#wrapper > .invert button:hover,
 				#wrapper > .invert .button:hover {
-					box-shadow: inset 0 0 0 1px rgb(248, 95, 64);
+					box-shadow: inset 0 0 0 1px #47D3E5;
 					color: #47D3E5 !important;
 				}
 
@@ -8322,7 +8325,7 @@ input, select, textarea {
 				#wrapper > .invert button:active,
 				#wrapper > .invert .button:active {
 					background-color: rgba(71, 211, 229, 0.2);
-					box-shadow: inset 0 0 0 1px rgb(248, 95, 64);
+					box-shadow: inset 0 0 0 1px #47D3E5;
 					color: #47D3E5 !important;
 				}
 
@@ -8341,7 +8344,7 @@ input, select, textarea {
 					#wrapper > .invert input[type="button"].primary:hover,
 					#wrapper > .invert button.primary:hover,
 					#wrapper > .invert .button.primary:hover {
-						background-color: rgb(248, 95, 64);
+						background-color: #47D3E5;
 					}
 
 					#wrapper > .invert input[type="submit"].primary:active,
@@ -8349,7 +8352,7 @@ input, select, textarea {
 					#wrapper > .invert input[type="button"].primary:active,
 					#wrapper > .invert button.primary:active,
 					#wrapper > .invert .button.primary:active {
-						background-color: rgb(248, 95, 64);
+						background-color: #47D3E5;
 					}
 
 			#wrapper > .invert label {
@@ -8608,7 +8611,7 @@ input, select, textarea {
 				bottom:0px
 			  }
 			  footer div {
-				background-color:rgb(248, 95, 64);
+				background-color:#47D3E5;
 				margin: -0.9rem 0px 0px 0px;
 				padding:0px;
 				color: #fff;
@@ -8621,12 +8624,12 @@ input, select, textarea {
 			  .wave {
 				animation: wave 10s linear;
 				animation-iteration-count:infinite;
-				fill: rgb(248, 95, 64);
+				fill: #47D3E5;
 			  }
 			  .drop {
 				fill: transparent;
 				animation: drop 10s ease infinite normal;
-				stroke: rgb(248, 95, 64);
+				stroke: #47D3E5;
 				stroke-width:0.5;
 				opacity:.6; 
 				transform: translateY(80%);
