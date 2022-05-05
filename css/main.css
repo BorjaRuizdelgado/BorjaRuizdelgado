@@ -1904,7 +1904,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "montserrat-bold", sans-serif;
     list-style: none;
     margin: 0;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
     position: absolute;
     bottom: 0;
     right: 40px;
@@ -2167,7 +2167,7 @@ html.no-csstransitions .home-content__main {
         bottom: -9rem;
     }
     .home-social {
-        padding-bottom: 10.8rem;
+        display: none;
     }
     .home-social::after {
         height: 10.2rem;
