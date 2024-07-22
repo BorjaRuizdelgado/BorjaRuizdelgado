@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if lt IE 9]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
-<!--<![endif]-->
+  <!--<![endif]-->
 
-<head>
-
+  <head>
     <!--- basic page needs
     ================================================== -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Ruizdelgado</title>
-    <meta name="author" content="Borja Ruizdelgado">
+    <meta name="author" content="Borja Ruizdelgado" />
 
-    <meta property="og:image" content="https://borjaruizdelgado.github.io/BorjaRuizdelgado/images/hero-bg.jpg"/>
+    <meta
+      property="og:image"
+      content="https://borjaruizdelgado.github.io/BorjaRuizdelgado/images/hero-bg.jpg"
+    />
 
     <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" type="text/css" href="css/base.css" media="all">
-    <link rel="stylesheet" type="text/css"  href="css/vendor.css" media="all">
-    <link rel="stylesheet" type="text/css"  href="css/main.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/base.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/vendor.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
 
     <!-- script
     ================================================== -->
@@ -32,406 +34,474 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
 
-</head>
-
-<body id="top">
-
+  <body id="top">
     <!-- header
     ================================================== -->
     <header class="s-header">
+      <div class="header-logo">
+        <h1>Ruizdelgado.</h1>
+      </div>
 
-        <div class="header-logo">
-            <h1>Ruizdelgado.</h1>
-        </div>
+      <nav class="header-nav-wrap">
+        <ul class="header-nav">
+          <li class="current">
+            <a class="smoothscroll" href="#home" title="home">Home</a>
+          </li>
+          <li><a class="smoothscroll" href="#work" title="works">Work</a></li>
+          <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+          <li>
+            <a class="smoothscroll" href="#contact" title="contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-        <nav class="header-nav-wrap">
-            <ul class="header-nav">
-                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                <li><a class="smoothscroll"  href="#work" title="works">Work</a></li>
-                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-            </ul>
-        </nav>
+      <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+    </header>
+    <!-- end s-header -->
 
-        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
-
-    </header> <!-- end s-header -->
-
-
-   <!-- home
+    <!-- home
    ================================================== -->
-   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-height=3000 data-natural-width=3000 data-natural-height=2000 data-position-y=center data-position-x=right>
+    <section
+      id="home"
+      class="s-home page-hero target-section"
+      data-parallax="scroll"
+      data-image-src="images/hero-bg.jpg"
+      data-height="3000"
+      data-natural-width="3000"
+      data-natural-height="2000"
+      data-position-y="center"
+      data-position-x="right"
+    >
+      <div class="overlay"></div>
+      <div class="shadow-overlay"></div>
 
-        <div class="overlay"></div>
-        <div class="shadow-overlay"></div>
+      <div class="home-content">
+        <div class="row home-content__main">
+          <h3>Hola!</h3>
 
-        <div class="home-content">
+          <h1>
+            I'm Borja Ruizdelgado. <br />
+            Software Engineer. <br />
+            <br />
+            Based in
+            <a href="https://goo.gl/maps/YS7T9jcKhLguyx9FA">Barcelona</a>
+          </h1>
 
-            <div class="row home-content__main">
+          <div class="home-content__scroll">
+            <a href="#work" class="scroll-link smoothscroll">
+              <span>Scroll Down</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end home-content -->
 
-                <h3>Hola!</h3>
-
-                <h1>
-                    I'm Borja Ruizdelgado. <br>
-                    Software Engineer. <br>
-                    <br>
-                    Based in <a href="https://goo.gl/maps/YS7T9jcKhLguyx9FA">Barcelona</a>
-                </h1>
-
-                <div class="home-content__scroll">
-                    <a href="#work" class="scroll-link smoothscroll">
-                        <span>Scroll Down</span>
-                    </a>
-                </div>
-
-            </div>
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-social">
-            <li><a href="https://www.instagram.com/borjaruizdelgado/?hl=en">
-                <i class="im im-instagram" aria-hidden="true"></i>
-                <span>Instagram</span>
-            </a></li>
-            <li><a href="https://www.linkedin.com/in/borjaruizdelgado/">
-                <i class="im im-linkedin" aria-hidden="true"></i>
-                <span>LinkedIn</span>
-            </a></li>
-            <li><a href="https://github.com/BorjaRuizdelgado">
-                <i class="im im-github" aria-hidden="true"></i>
-                <span>Github</span>
-            </a></li>
-        </ul> 
-        <!-- end home-social -->
-
-    </section> <!-- end s-home -->
-    
+      <ul class="home-social">
+        <li>
+          <a href="https://www.instagram.com/borjaruizdelgado/?hl=en">
+            <i class="im im-instagram" aria-hidden="true"></i>
+            <span>Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/borjaruizdelgado/">
+            <i class="im im-linkedin" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/BorjaRuizdelgado">
+            <i class="im im-github" aria-hidden="true"></i>
+            <span>Github</span>
+          </a>
+        </li>
+      </ul>
+      <!-- end home-social -->
+    </section>
+    <!-- end s-home -->
 
     <!-- works
     ================================================== -->
     <section id="work" class="s-works target-section">
-
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <h3>My Work Experience</h3>
-                <h1>Check It Out!</h1>
-                <h2 class="lead"><b>TL;DR:</b></h2>
-                <p class="lead">
-                    Experienced backend developer with a focus on backend scalability, availability and maintainability. <br> 
-                    Proven track record in collaborating with clients as a consultant to enhance their products and streamline business processes. <br> 
-                    Currently leveraging my expertise in a product company to implement cutting-edge techniques and drive innovation.  <br> 
-                </p>
+      <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full">
+          <h3>My Work Experience</h3>
+          <h1>Check It Out!</h1>
+          <h2 class="lead"><b>TL;DR:</b></h2>
+          <p class="lead">
+            Experienced backend developer with a focus on backend scalability,
+            availability and maintainability. <br />
+            Proven track record in collaborating with clients as a consultant to
+            enhance their products and streamline business processes. <br />
+            Currently leveraging my expertise in a product company to implement
+            cutting-edge techniques and drive innovation. <br />
+          </p>
+        </div>
+      </div>
+      <div
+        class="row narrow section-intro about-content about-content--timeline"
+      >
+        <div class="col-full tab-full">
+          <div class="timeline">
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <p class="timeline__timeframe">March 2023 - Present</p>
+                <h3>Skyscanner</h3>
+                <h5>Software Engineer II</h5>
+              </div>
+              <div class="timeline__desc">
+                <li>
+                  Design, creation and maintenance of large distributed backend
+                  applications.
+                </li>
+                <li>Deployment of Dockerized applications in AWS</li>
+                <li>
+                  Observability implementation through OpenTelemetry + NewRelic.
+                </li>
+                <li>Projects coded in Java, Python, SQL and ElasticSearch.</li>
+                <br />
+              </div>
             </div>
+            <!-- end timeline__block -->
+
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <p class="timeline__timeframe">March 2021 - March 2023</p>
+                <h3>ThoughtWorks</h3>
+                <h5>Consultant Software Engineer</h5>
+              </div>
+              <div class="timeline__desc">
+                <li>
+                  Development of large scale backend projects on some of the
+                  biggest european tech companies.
+                </li>
+                <li>
+                  Event driven architecture implementation with message queues
+                  such as Kafka.
+                </li>
+                <li>
+                  Development of scalable and performant microservices using
+                  Docker and Kubernetes.
+                </li>
+                <li>Data analysis with Spark-Scala.</li>
+                <li>C# integration with C++ libraries using P/Invoke</li>
+                <li>Projects coded in Java, C#, C, C++, Scala and SQL.</li>
+                <br />
+              </div>
+            </div>
+            <!-- end timeline__block -->
+
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <p class="timeline__timeframe">January 2020 - September 2020</p>
+                <h3>GFI</h3>
+                <h5>Junior Software Engineer</h5>
+              </div>
+              <div class="timeline__desc">
+                <li>
+                  Development of different nature projects using Object-Oriented
+                  programming languages such as C#, Java, and Python.
+                </li>
+                <li>SaaS deployment in Azure.</li>
+                <li>
+                  Working together with the customer in Requirements Engineering
+                  processes, change requests, and testing.
+                </li>
+                <li>
+                  Development of scalable, reusable and efficient architectures
+                  through the usage of UML and other graphic notation tools.
+                </li>
+                <li>Acceptance, Integration, and Unit testing supervision.</li>
+                <br />
+              </div>
+            </div>
+            <!-- end timeline__block -->
+
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <p class="timeline__timeframe">June 2019 - January 2020</p>
+                <h3>InLabFIB</h3>
+                <h5>Software Research Engineer</h5>
+              </div>
+              <div class="timeline__desc">
+                <li>Database content generation research.</li>
+                <li>
+                  Focused on building a process to autogenerate data that
+                  complies with a given database, and textual restrictions
+                  through the usage of formal logic processing.
+                </li>
+                <li>Using .Net Core (C#), and Oracle’s SQL.</li>
+                <br />
+              </div>
+            </div>
+            <!-- end timeline__block -->
+          </div>
+          <!-- end timeline -->
         </div>
-        <div class="row narrow section-intro about-content about-content--timeline">
-
-            <div class="col-full tab-full">
-                <div class="timeline">
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">March 2023 - Present</p>
-                            <h3>Skyscanner</h3>
-                            <h5>Software Engineer II</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <li>Design, creation and maintenance of large distributed backend applications.</li>
-                            <li>Deployment of applications in AWS and containerized with Docker + Kubernetes.</li>
-                            <li>Observability implementation through OpenTelemetry + NewRelic.</li>
-                            <li>Projects coded in Java, Python and SQL.</li>
-                            <br>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">March 2021 - March 2023</p>
-                            <h3>ThoughtWorks</h3>
-                            <h5>Consultant Software Engineer</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <li>Development of large scale backend projects on some of the biggest european tech companies.</li>
-                            <li>Event driven architecture implementation with message queues such as Kafka.</li>
-                            <li>Development of scalable and performant microservices using Docker and Kubernetes.</li>
-                            <li>Data analysis with Spark-Scala.</li>
-                            <li>C# integration with C++ libraries using P/Invoke</li>
-                            <li>Projects coded in Java, C#, C, C++, Scala and SQL.</li>
-                            <br>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">January 2020 - September 2020</p>
-                            <h3>GFI</h3>
-                            <h5>Junior Software Engineer</h5>
-                        </div>
-                        <div class="timeline__desc">	
-                            <li>Development of different nature projects using Object-Oriented programming languages such as C#, Java, and Python.</li>
-                            <li>SaaS deployment in Azure.</li>
-                            <li>Working together with the customer in Requirements Engineering processes, change requests, and testing.</li>
-                            <li>Development of scalable, reusable and efficient architectures through the usage of UML and other graphic notation tools.</li>
-                            <li>Acceptance, Integration, and Unit testing supervision.</li>
-                            <br>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">June 2019 - January 2020</p>
-                            <h3>InLabFIB</h3>
-                            <h5>Software Research Engineer</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <li>Database content generation research.</li>
-                            <li>Focused on building a process to autogenerate data that complies with a given database, and textual restrictions through the usage of formal logic processing.</li>
-                            <li>Using .Net Core (C#), and Oracle’s SQL.</li>
-                            <br>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                </div> <!-- end timeline -->
-            </div> <!-- end left -->
-        </div>
-
-    </section> <!-- end works -->
-    
+        <!-- end left -->
+      </div>
+    </section>
+    <!-- end works -->
 
     <!-- about
     ================================================== -->
     <section id="about" class="s-about target-section">
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full text-center">
-                <h3>About Me</h3>
-                <h1>Get To Know Me Better</h1>
-                <p class="lead">
-                    I've always been a self-learner.
-                    Whenever something catches my interest, I tend to dive in and figure it out on my own.
-                    I vividly recall being 14 and telling my mom I wanted to learn guitar.
-                    Even though she was doubtful, she got me one anyway. Thanks to the magic of YouTube tutorials and tons of willpower, within a year, I managed to play decently.
-                </p>
-                <p class="lead">
-                    Lately, I've been diving into the world of financial markets and keeping tabs on the latest DeFi projects popping up.
-                    I have been experimenting with algorithms and machine learning to cook up one that predicts how stocks and cryptos might move in the mid-term.
-                    To my surprise, results are becoming pretty accurate!
-                </p>
-                <p class="lead">
-                    It is all up on Twitter for everyone to check it out on the <a href="https://twitter.com/BullishBanterS">Bullish Banter Society account</a>.
-                </p>
+      <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full text-center">
+          <h3>About Me</h3>
+          <h1>Get To Know Me Better</h1>
+          <p class="lead">
+            Recently, I've been immersing myself in financial markets,
+            specifically in Quantitative Development, which I find incredibly
+            intriguing. I've been exploring various algorithms, statistical
+            methods, and machine learning models. My goal is to develop
+            financial tools that can assist the average investor in making more
+            informed decisions.
+          </p>
+          <p class="lead">
+            All the updates are available for free on Twitter via the
+            <a href="https://twitter.com/BullishBanterS">Bullish Banter Society account</a>. For in-depth Quant articles, check out our posts on
+            <a href="https://medium.com/@bullishbantersociety">Medium</a>.
+          </p>
+        </div>
+      </div>
+      <div class="row narrow section-intro">
+        <div class="col-full text-center">
+          <h3>Studies</h3>
+          <h1>Studies</h1>
+        </div>
+      </div>
+      <div
+        class="row narrow section-intro about-content--timeline has-bottom-sep"
+      >
+        <div class="col-full tab-full">
+          <div class="timeline">
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <p class="timeline__timeframe">August 2020 - March 2021</p>
+                <h3>Software Engineering Master's Course</h3>
+                <h5>Innopolis University (Russia)</h5>
+              </div>
             </div>
-        </div>
-        <div class="row narrow section-intro">
-            <div class="col-full text-center">
-                <h3>Studies</h3>
-                <h1>Studies</h1>
+            <!-- end timeline__block -->
 
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <p class="timeline__timeframe">September 2015 - July 2019</p>
+                <h3>Bachelor's Degree in Informatics Engineering</h3>
+                <h5>UPC FIB (Spain)</h5>
+              </div>
             </div>
+            <!-- end timeline__block -->
+          </div>
+          <!-- end timeline -->
         </div>
-        <div class="row narrow section-intro  about-content--timeline has-bottom-sep">
-            <div class="col-full tab-full">
-                <div class="timeline">
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">August 2020 - March 2021</p>
-                            <h3>Software Engineering Master's Course</h3>
-                            <h5>Innopolis University (Russia)</h5>
-                        </div>
-                    </div> <!-- end timeline__block -->
+        <!-- end left -->
+      </div>
 
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">September 2015 - July 2019</p>
-                            <h3>Bachelor's Degree in Informatics Engineering</h3>
-                            <h5>UPC FIB (Spain)</h5>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                </div> <!-- end timeline -->
-            </div> <!-- end left -->
+      <div class="row narrow section-intro">
+        <div class="col-full text-center">
+          <h3>Languages</h3>
+          <h1>Languages</h1>
         </div>
-
-        <div class="row narrow section-intro">
-            <div class="col-full text-center">
-                <h3>Languages</h3>
-                <h1>Languages</h1>
-
+      </div>
+      <div
+        class="row narrow section-intro about-content about-content--timeline"
+      >
+        <div class="col-full tab-full">
+          <div class="timeline">
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <h3>Spanish - Native</h3>
+              </div>
             </div>
-        </div>
-        <div class="row narrow section-intro about-content about-content--timeline">
-            <div class="col-full tab-full">
-                <div class="timeline">
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <h3>Spanish - Native</h3>
-                        </div>
-                    </div> <!-- end timeline__block -->
+            <!-- end timeline__block -->
 
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <div class="timeline__header">
-                                <h3>Catalan - Native</h3>
-                            </div>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <div class="timeline__header">
-                                <h3>English - C2</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                </div> <!-- end timeline -->
-            </div> <!-- end left -->
-        </div>
-
-        <div class="row narrow about-content">
-
-            <div class="col-full tab-full">
-                <a href="docs/cv.pdf" class="btn btn--primary full-width" download="">Download My CV</a>
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <div class="timeline__header">
+                  <h3>Catalan - Native</h3>
+                </div>
+              </div>
             </div>
+            <!-- end timeline__block -->
 
-        </div> <!-- end about-content buttons -->
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <div class="timeline__header">
+                  <h3>English - C2</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end timeline -->
+        </div>
+        <!-- end left -->
+      </div>
 
-    </section> <!-- end about -->
-
+      <div class="row narrow about-content">
+        <div class="col-full tab-full">
+          <a href="docs/cv.pdf" class="btn btn--primary full-width" download=""
+            >Download My CV</a
+          >
+        </div>
+      </div>
+      <!-- end about-content buttons -->
+    </section>
+    <!-- end about -->
 
     <!-- s-stats
     ================================================== -->
     <section id="contact" class="s-contact target-section">
+      <div class="overlay"></div>
 
-        <div class="overlay"></div>
-
-        <div class="row narrow section-intro">
-            <div class="col-full">
-                <h3>Contact Me</h3>
-                <h1>Say Hi!</h1>
-                
-            </div>
+      <div class="row narrow section-intro">
+        <div class="col-full">
+          <h3>Contact Me</h3>
+          <h1>Say Hi!</h1>
         </div>
+      </div>
 
-        <div class="row narow contact__main">
-            <div class="col-full">
-                <br>
-                <h4 class="h06">Phone</h4>
-                <p>Mobile: (+34) 635127575<br>
-                </p>
+      <div class="row narow contact__main">
+        <div class="col-full">
+          <br />
+          <h4 class="h06">Phone</h4>
+          <p>Mobile: (+34) 635127575<br /></p>
 
-                <h4 class="h06">Email</h4>
-                <p>borjafruizdelgado@gmail.com<br>
-                </p>
-                <br>
-                <br>
-            </div>
-            
-
+          <h4 class="h06">Email</h4>
+          <p>borjafruizdelgado@gmail.com<br /></p>
+          <br />
+          <br />
         </div>
-
-    </section> <!-- end s-contact -->
-
+      </div>
+    </section>
+    <!-- end s-contact -->
 
     <!-- footer
     ================================================== -->
     <footer>
-        <div class="row">
-            <div class="col-full">
-
-                <ul class="footer-social">
-                    <li><a href="https://www.instagram.com/borjaruizdelgado/?hl=en">
-                        <i class="im im-instagram" aria-hidden="true"></i>
-                        <span>Instagram</span>
-                    </a></li>
-                    <li><a href="https://www.linkedin.com/in/borjaruizdelgado/">
-                        <i class="im im-linkedin" aria-hidden="true"></i>
-                        <span>LinkedIn</span>
-                    </a></li>
-                    <li><a href="https://github.com/BorjaRuizdelgado">
-                        <i class="im im-github" aria-hidden="true"></i>
-                        <span>Github</span>
-                    </a></li>
-                </ul>
-                    
-            </div>
+      <div class="row">
+        <div class="col-full">
+          <ul class="footer-social">
+            <li>
+              <a href="https://www.instagram.com/borjaruizdelgado/?hl=en">
+                <i class="im im-instagram" aria-hidden="true"></i>
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/borjaruizdelgado/">
+                <i class="im im-linkedin" aria-hidden="true"></i>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/BorjaRuizdelgado">
+                <i class="im im-github" aria-hidden="true"></i>
+                <span>Github</span>
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
 
-        <div class="row footer-bottom">
+      <div class="row footer-bottom">
+        <div class="col-twelve">
+          <div class="copyright">
+            <span>© Copyright Borja Ruizdelgado</span>
+          </div>
 
-            <div class="col-twelve">
-                <div class="copyright">
-                    <span>© Copyright Borja Ruizdelgado</span> 
-                </div>
-
-                <div class="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-        </div> <!-- end footer-bottom -->
-
-    </footer> <!-- end footer -->
-
+          <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"
+              ><i class="im im-arrow-up" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- end footer-bottom -->
+    </footer>
+    <!-- end footer -->
 
     <!-- photoswipe background
     ================================================== -->
     <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
         </div>
 
-    </div><!-- end photoSwipe background -->
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close (Esc)"
+            ></button>
+            <button
+              class="pswp__button pswp__button--share"
+              title="Share"
+            ></button>
+            <button
+              class="pswp__button pswp__button--fs"
+              title="Toggle fullscreen"
+            ></button>
+            <button
+              class="pswp__button pswp__button--zoom"
+              title="Zoom in/out"
+            ></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+          >
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous (arrow left)"
+          ></button>
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next (arrow right)"
+          ></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end photoSwipe background -->
 
     <div id="preloader">
-        <div id="loader"></div>
+      <div id="loader"></div>
     </div>
-
 
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
