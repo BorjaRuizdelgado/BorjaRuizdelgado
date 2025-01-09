@@ -1285,7 +1285,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro.has-bottom-sep {
-    padding-bottom: 1.5rem;
+    padding-bottom: 5rem;
     position: relative;
 }
 
@@ -2219,8 +2219,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-about {
-    padding-top: 15rem;
-    padding-bottom: 9rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     background-color: #FFFFFF;
     position: relative;
 }
@@ -2376,8 +2376,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-works {
-    padding-top: 15rem;
-    padding-bottom: 15.6rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     background-color: #f1f1f1;
     position: relative;
 }
